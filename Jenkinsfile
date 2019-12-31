@@ -1,7 +1,7 @@
 pipeline{
     agent none
     stages {
-        stage("first"){
+        stage("hello3"){
             steps {
                 timestamps {
                       logstash{ 
@@ -11,7 +11,7 @@ pipeline{
                 }
             }
         }
-        stage("second"){
+        stage("hello4"){
             steps{
                 timestamps {
                     logstash {
